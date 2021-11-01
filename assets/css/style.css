@@ -86,7 +86,7 @@ header nav ul li a {
     font-size: 20px;
     margin: 100 auto;
     padding: 25px;
-    text-align: right;
+    text-align: left;
     display: flex;
 }
 
@@ -96,11 +96,37 @@ header nav ul li a {
     text-align: center;
     font-size: 36px;
     padding: 25px;
+    height: 100px;
+    width: 175px;
 }
 
 .intro p {
-    text-align: right;
+    text-align: left;
     padding: 25px;
     margin: 7px;
     width: 125%;
+}
+
+.project-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+.project {
+    margin: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    flex: 1;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-label {
+    padding: 25px;
+    line-height: 1.3;
 }
